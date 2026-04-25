@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page not found — USMAN.AI Portfolio">
+    <title>404 — Page Not Found | USMAN.AI</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        .error-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 40px 5%;
+        }
+        .error-code {
+            font-size: 8rem;
+            font-weight: 900;
+            background: var(--gradient-text);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1;
+            margin-bottom: 16px;
+            animation: glow-pulse 3s ease-in-out infinite;
+        }
+        .error-message {
+            font-size: 1.4rem;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        .error-desc {
+            color: var(--text-dim);
+            font-size: 1rem;
+            max-width: 420px;
+            margin: 0 auto 36px;
+            line-height: 1.7;
+        }
+        .error-home-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">USMAN.AI</div>
+        <nav class="nav" id="main-nav">
+            <a href="index.html">Home</a>
+            <a href="pages/projects.html">Projects</a>
+            <a href="pages/services.html">Services</a>
+            <a href="pages/skills.html">Skills</a>
+            <a href="pages/internship.html">Internship</a>
+            <a href="pages/contact.html">Contact</a>
+        </nav>
+        <a href="pages/contact.html" class="cta-button header-cta">Let's Talk →</a>
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <section class="error-section">
+        <div class="error-code">404</div>
+        <p class="error-message">Oops! Page Not Found</p>
+        <p class="error-desc">
+            The page you're looking for doesn't exist or has been moved.
+            Let's get you back on track.
+        </p>
+        <a href="index.html" class="cta-button hire-btn error-home-btn">
+            <i class="fas fa-home"></i> Back to Home
+        </a>
+    </section>
+
+    <footer>
+        <p class="footer-copyright">© 2026 Muhammad Usman. All Rights Reserved.</p>
+        <p class="footer-links">
+            <a href="https://linkedin.com/in/usman-saeed786/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            &nbsp;|&nbsp;
+            <a href="mailto:manoousman469@gmail.com"><i class="fas fa-envelope"></i> manoousman469@gmail.com</a>
+        </p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

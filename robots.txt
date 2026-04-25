@@ -1,0 +1,5 @@
+# USMAN.AI Portfolio — Robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://usman-ai.com/sitemap.xml

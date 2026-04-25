@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muhammad Usman — AI/ML Engineer specializing in Machine Learning, Deep Learning, and NLP. Based in Bahawalpur, Pakistan.">
+    <meta name="author" content="Muhammad Usman">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Muhammad Usman — AI/ML Engineer Portfolio">
+    <meta property="og:description" content="Passionate AI/ML Engineer with 3+ years of experience in Machine Learning, Deep Learning, NLP, and Computer Vision. Explore my projects and services.">
+    <meta property="og:image" content="assets/images/Usman_profile_transparent.png">
+    <meta property="og:url" content="https://usman-ai.com/">
+    <meta property="og:site_name" content="USMAN.AI">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Muhammad Usman — AI/ML Engineer Portfolio">
+    <meta name="twitter:description" content="Passionate AI/ML Engineer with 3+ years of experience in Machine Learning, Deep Learning, NLP, and Computer Vision.">
+    <meta name="twitter:image" content="assets/images/Usman_profile_transparent.png">
+
+    <title>Muhammad Usman — AI Engineer</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="assets/images/favicon.png">
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Muhammad Usman",
+        "jobTitle": "AI/ML Engineer",
+        "url": "https://usman-ai.com",
+        "email": "manoousman469@gmail.com",
+        "telephone": "+92-3007515751",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Bahawalpur",
+            "addressRegion": "Punjab",
+            "addressCountry": "Pakistan"
+        },
+        "sameAs": [
+            "https://linkedin.com/in/usman-saeed786/",
+            "https://github.com/usman-rgb"
+        ],
+        "knowsAbout": ["Machine Learning", "Deep Learning", "NLP", "Computer Vision", "Python", "TensorFlow", "PyTorch"]
+    }
+    </script>
+</head>
+<body>
+    <!-- ═══════════════════════════════════════
+         PRELOADER
+         ═══════════════════════════════════════ -->
+    <div id="preloader" class="preloader">
+        <div class="loader-content">
+            <div class="loader-circle-wrapper">
+                <div class="loader-circle"></div>
+                <span id="loader-percentage">0%</span>
+            </div>
+            <p class="loader-text">Wait For Usman Portfolio</p>
+        </div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+    <!-- ═══════════════════════════════════════
+         HEADER / NAVIGATION (SPA)
+         ═══════════════════════════════════════ -->
+    <header>
+        <a href="#hero" class="logo">
+            <img src="assets/images/Usman_profile_transparent.png" alt="Muhammad Usman" class="logo-img">
+            <span class="logo-text">Muhammad Usman</span>
+        </a>
+        <nav class="nav" id="main-nav" role="navigation" aria-label="Main navigation">
+            <a href="#hero" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <a href="#contact" class="cta-button header-cta">Let's Talk →</a>
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <!-- ═══════════════════════════════════════
+         SECTION 1: HERO
+         ═══════════════════════════════════════ -->
+    <section class="section hero-section" id="hero">
+        <canvas id="particles-canvas" aria-hidden="true"></canvas>
+        <div class="hero-container">
+
+            <!-- Left: Content -->
+            <div class="hero-content">
+                <p class="hero-greeting">Hi there! 👋 I'm</p>
+
+                <h1 class="hero-name">Muhammad<br>Usman</h1>
+
+                <h2 class="hero-title">
+                    <span>AI / ML Engineer</span>
+                </h2>
+
+                <p class="hero-description">
+                    Passionate AI/ML Engineer with 3+ years of experience, specializing in
+                    Machine Learning, Deep Learning, and NLP. I build and deploy data-driven
+                    solutions that solve complex real-world problems.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#contact" class="cta-button hire-btn">Hire Me →</a>
+                    <a href="assets/docs/Usman_Resume_PDF.pdf" class="cta-button download-btn" download>
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+
+                <div class="hero-contact-info">
+                    <span class="hero-contact-item">
+                        <i class="fas fa-phone hero-icon-pink" aria-hidden="true"></i>
+                        +92-3007515751
+                    </span>
+                    <span class="hero-contact-item">
+                        <i class="fas fa-envelope hero-icon-dark" aria-hidden="true"></i>
+                        manoousman469@gmail.com
+                    </span>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <div class="hero-stat-number" data-count="3">0</div>
+                        <div class="hero-stat-label">Years Experience</div>
+                    </div>
+                    <div>
+                        <div class="hero-stat-number" data-count="13">0</div>
+                        <div class="hero-stat-label">AI Projects</div>
+                    </div>
+                    <div>
+                        <div class="hero-stat-number" data-count="6">0</div>
+                        <div class="hero-stat-label">Services</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Photo -->
+            <div class="hero-image">
+                <img src="assets/images/Usman_profile_transparent.png" alt="Muhammad Usman – AI/ML Engineer – Professional portrait photo" class="hero-profile-img" loading="eager">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         SECTION 2: ABOUT
+         ═══════════════════════════════════════ -->
+    <section class="section" id="about">
+        <h2>About Me</h2>
+        <div class="section-divider"></div>
+
+        <div class="about-container">
+            <div class="about-text">
+                <p class="about-intro">
+                    I am <strong>Muhammad Usman</strong>, an AI/ML Engineer based in
+                    <span class="text-accent">Bahawalpur, Pakistan</span>, with over 3 years of
+                    hands-on experience in building intelligent systems. I focus on transforming raw data
+                    into practical, real-world solutions that create meaningful impact.
+                </p>
+                <p class="about-detail">
+                    My expertise includes Machine Learning, Deep Learning, Natural Language Processing,
+                    and Computer Vision. I have successfully developed and deployed 13+ AI projects, including
+                    medical imaging systems, NLP-based chatbots, and predictive analytics pipelines.
+                </p>
+                <p class="about-detail">
+                    Currently, I am working as an intern at <strong>AI Cadmey</strong>, where I contribute to
+                    production-level AI solutions using TensorFlow, PyTorch, and modern AI frameworks.
+                    Alongside my professional work, I am pursuing a BS in Artificial Intelligence and
+                    continuously expanding my knowledge in advanced and emerging technologies.
+                </p>
+                <div class="about-highlights">
+                    <div class="about-highlight-item">
+                        <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                        <span>BS Artificial Intelligence — IUB</span>
+                    </div>
+                    <div class="about-highlight-item">
+                        <i class="fas fa-briefcase" aria-hidden="true"></i>
+                        <span>AI/ML Intern @ AI Cadmey</span>
+                    </div>
+                    <div class="about-highlight-item">
+                        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                        <span>Bahawalpur, Punjab, Pakistan</span>
+                    </div>
+                    <div class="about-highlight-item">
+                        <i class="fas fa-language" aria-hidden="true"></i>
+                        <span>English, Urdu, Punjabi</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         SECTION 3: SERVICES
+         ═══════════════════════════════════════ -->
+    <section class="section" id="services">
+        <h2>Expert Services</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">
+            I offer specialized AI and Machine Learning services to help you build smart,
+            scalable, data-driven solutions — from ideation to deployment.
+        </p>
+
+        <div class="card-grid">
+            <div class="glass-card" id="service-ml-dev">
+                <i class="fas fa-laptop-code card-icon-lg" aria-hidden="true"></i>
+                <h3>ML Model Development</h3>
+                <p class="card-desc">
+                    Designing, training, and evaluating high-performance ML and Deep Learning models
+                    tailored to your specific domain and data requirements.
+                </p>
+                <a href="#contact" class="card-inquire-link">Inquire Now →</a>
+            </div>
+
+            <div class="glass-card" id="service-data-clean">
+                <i class="fas fa-broom card-icon-lg" aria-hidden="true"></i>
+                <h3>Data Cleaning &amp; Preprocessing</h3>
+                <p class="card-desc">
+                    Transforming messy, raw data into clean, structured, analysis-ready datasets
+                    with expert feature engineering and EDA.
+                </p>
+                <a href="#contact" class="card-inquire-link">Inquire Now →</a>
+            </div>
+
+            <div class="glass-card" id="service-deploy">
+                <i class="fas fa-cloud-upload-alt card-icon-lg" aria-hidden="true"></i>
+                <h3>Deployment &amp; Integration</h3>
+                <p class="card-desc">
+                    Deploying trained models as production-ready web apps using Streamlit, Flask,
+                    or FastAPI with clean, user-friendly interfaces.
+                </p>
+                <a href="#contact" class="card-inquire-link">Inquire Now →</a>
+            </div>
+
+            <div class="glass-card" id="service-dataviz">
+                <i class="fas fa-chart-bar card-icon-lg" aria-hidden="true"></i>
+                <h3>Data Visualization</h3>
+                <p class="card-desc">
+                    Creating compelling interactive dashboards, reports, and visual analytics
+                    that turn data into actionable insights.
+                </p>
+                <a href="#contact" class="card-inquire-link">Inquire Now →</a>
+            </div>
+
+            <div class="glass-card" id="service-nlp">
+                <i class="fas fa-comment-dots card-icon-lg" aria-hidden="true"></i>
+                <h3>NLP Solutions</h3>
+                <p class="card-desc">
+                    Building intelligent text processing systems — chatbots, sentiment analysis,
+                    text classification, summarization, and information extraction.
+                </p>
+                <a href="#contact" class="card-inquire-link">Inquire Now →</a>
+            </div>
+
+            <div class="glass-card" id="service-cv">
+                <i class="fas fa-eye card-icon-lg" aria-hidden="true"></i>
+                <h3>Computer Vision</h3>
+                <p class="card-desc">
+                    Object detection, image classification, segmentation, and custom vision models
+                    for medical, industrial, and consumer applications.
+                </p>
+                <a href="#contact" class="card-inquire-link">Inquire Now →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         SECTION 4: SKILLS & TECH STACK
+         ═══════════════════════════════════════ -->
+    <section class="section" id="skills">
+        <h2>Skills &amp; Tech Stack</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">
+            A comprehensive overview of my technical proficiencies and the tools I use daily.
+        </p>
+
+        <!-- Tech Stack Icon Grid -->
+        <div class="tech-stack-grid">
+            <a href="https://docs.python.org/3/" target="_blank" rel="noopener" class="tech-item" title="Python">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" loading="lazy">
+                <span>Python</span>
+            </a>
+            <a href="https://www.tensorflow.org/" target="_blank" rel="noopener" class="tech-item" title="TensorFlow">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" loading="lazy">
+                <span>TensorFlow</span>
+            </a>
+            <a href="https://pytorch.org/" target="_blank" rel="noopener" class="tech-item" title="PyTorch">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" loading="lazy">
+                <span>PyTorch</span>
+            </a>
+            <a href="https://scikit-learn.org/" target="_blank" rel="noopener" class="tech-item" title="Scikit-learn">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" loading="lazy">
+                <span>Scikit-learn</span>
+            </a>
+            <a href="https://keras.io/" target="_blank" rel="noopener" class="tech-item" title="Keras">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" alt="Keras" loading="lazy">
+                <span>Keras</span>
+            </a>
+            <a href="https://huggingface.co/" target="_blank" rel="noopener" class="tech-item" title="Hugging Face">
+                <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" loading="lazy">
+                <span>HuggingFace</span>
+            </a>
+            <a href="https://pandas.pydata.org/" target="_blank" rel="noopener" class="tech-item" title="Pandas">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" loading="lazy">
+                <span>Pandas</span>
+            </a>
+            <a href="https://numpy.org/" target="_blank" rel="noopener" class="tech-item" title="NumPy">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" loading="lazy">
+                <span>NumPy</span>
+            </a>
+            <a href="https://matplotlib.org/" target="_blank" rel="noopener" class="tech-item" title="Matplotlib">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib" loading="lazy">
+                <span>Matplotlib</span>
+            </a>
+            <a href="https://streamlit.io/" target="_blank" rel="noopener" class="tech-item" title="Streamlit">
+                <img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" alt="Streamlit" loading="lazy">
+                <span>Streamlit</span>
+            </a>
+            <a href="https://flask.palletsprojects.com/" target="_blank" rel="noopener" class="tech-item" title="Flask">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask" loading="lazy">
+                <span>Flask</span>
+            </a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener" class="tech-item" title="JavaScript">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" loading="lazy">
+                <span>JavaScript</span>
+            </a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener" class="tech-item" title="HTML5">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" loading="lazy">
+                <span>HTML5</span>
+            </a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener" class="tech-item" title="CSS3">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" loading="lazy">
+                <span>CSS3</span>
+            </a>
+            <a href="https://git-scm.com/" target="_blank" rel="noopener" class="tech-item" title="Git">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" loading="lazy">
+                <span>Git</span>
+            </a>
+            <a href="https://github.com/" target="_blank" rel="noopener" class="tech-item" title="GitHub">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" loading="lazy" class="invert-icon">
+                <span>GitHub</span>
+            </a>
+            <a href="https://jupyter.org/" target="_blank" rel="noopener" class="tech-item" title="Jupyter">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt="Jupyter" loading="lazy">
+                <span>Jupyter</span>
+            </a>
+            <a href="https://code.visualstudio.com/" target="_blank" rel="noopener" class="tech-item" title="VS Code">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" loading="lazy">
+                <span>VS Code</span>
+            </a>
+        </div>
+
+        <!-- Skill Category Cards -->
+        <div class="card-grid" style="margin-top: 60px;">
+            <div class="glass-card" id="skill-core-ai">
+                <i class="fas fa-robot card-icon-sm" aria-hidden="true"></i>
+                <h3>Core AI &amp; ML</h3>
+                <p class="card-desc">Fundamental algorithms and architectures for intelligent systems.</p>
+                <div class="skill-tags-list">
+                    <span class="skill-tag-usman">Machine Learning</span>
+                    <span class="skill-tag-usman">Deep Learning</span>
+                    <span class="skill-tag-usman">NLP</span>
+                    <span class="skill-tag-usman">Computer Vision</span>
+                    <span class="skill-tag-usman">Time-Series</span>
+                    <span class="skill-tag-usman">Reinforcement Learning</span>
+                </div>
+            </div>
+
+            <div class="glass-card" id="skill-frameworks">
+                <i class="fas fa-code card-icon-sm" aria-hidden="true"></i>
+                <h3>Frameworks &amp; Libraries</h3>
+                <p class="card-desc">Production-grade tools for building and training models.</p>
+                <div class="skill-tags-list">
+                    <span class="skill-tag-usman">TensorFlow</span>
+                    <span class="skill-tag-usman">PyTorch</span>
+                    <span class="skill-tag-usman">Keras</span>
+                    <span class="skill-tag-usman">Scikit-learn</span>
+                    <span class="skill-tag-usman">Hugging Face</span>
+                    <span class="skill-tag-usman">Streamlit</span>
+                </div>
+            </div>
+
+            <div class="glass-card" id="skill-programming">
+                <i class="fas fa-cogs card-icon-sm" aria-hidden="true"></i>
+                <h3>Programming &amp; Tools</h3>
+                <p class="card-desc">Languages and development tools I use daily.</p>
+                <div class="skill-tags-list">
+                    <span class="skill-tag-usman">Python</span>
+                    <span class="skill-tag-usman">JavaScript</span>
+                    <span class="skill-tag-usman">HTML/CSS</span>
+                    <span class="skill-tag-usman">Git / GitHub</span>
+                    <span class="skill-tag-usman">VS Code</span>
+                    <span class="skill-tag-usman">Jupyter</span>
+                </div>
+            </div>
+
+            <div class="glass-card" id="skill-data-eng">
+                <i class="fas fa-database card-icon-sm" aria-hidden="true"></i>
+                <h3>Data Engineering</h3>
+                <p class="card-desc">Wrangling, processing, and visualizing complex datasets.</p>
+                <div class="skill-tags-list">
+                    <span class="skill-tag-usman">Pandas</span>
+                    <span class="skill-tag-usman">NumPy</span>
+                    <span class="skill-tag-usman">Matplotlib</span>
+                    <span class="skill-tag-usman">Seaborn</span>
+                    <span class="skill-tag-usman">Feature Engineering</span>
+                    <span class="skill-tag-usman">SQL</span>
+                </div>
+            </div>
+
+            <div class="glass-card" id="skill-apis">
+                <i class="fas fa-cloud card-icon-sm" aria-hidden="true"></i>
+                <h3>APIs &amp; Deployment</h3>
+                <p class="card-desc">Integrating AI models into real-world applications and APIs.</p>
+                <div class="skill-tags-list">
+                    <span class="skill-tag-usman">Groq API</span>
+                    <span class="skill-tag-usman">OpenAI API</span>
+                    <span class="skill-tag-usman">Flask</span>
+                    <span class="skill-tag-usman">FastAPI</span>
+                    <span class="skill-tag-usman">REST APIs</span>
+                </div>
+            </div>
+
+            <div class="glass-card" id="skill-other">
+                <i class="fas fa-link card-icon-sm" aria-hidden="true"></i>
+                <h3>Other Domains</h3>
+                <p class="card-desc">Expanded expertise across emerging technology areas.</p>
+                <div class="skill-tags-list">
+                    <span class="skill-tag-usman">Blockchain</span>
+                    <span class="skill-tag-usman">XRPL / Web3</span>
+                    <span class="skill-tag-usman">LLM Integration</span>
+                    <span class="skill-tag-usman">Prompt Engineering</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         SECTION 5: PROJECTS
+         ═══════════════════════════════════════ -->
+    <section class="section" id="projects">
+        <h2>Selected Projects</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">
+            A curated showcase of 13+ AI/ML projects — from NLP chatbots to medical imaging systems.
+        </p>
+
+        <!-- Filter Tabs -->
+        <div class="project-filters" id="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="NLP">NLP</button>
+            <button class="filter-btn" data-filter="Computer Vision">Vision</button>
+            <button class="filter-btn" data-filter="Deep Learning">Deep Learning</button>
+            <button class="filter-btn" data-filter="Web">Web / Other</button>
+        </div>
+
+        <div class="card-grid" id="projects-grid">
+            <!-- Projects rendered dynamically by JS -->
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         SECTION 6: EXPERIENCE & EDUCATION
+         ═══════════════════════════════════════ -->
+    <section class="section" id="experience">
+        <h2>Experience &amp; Education</h2>
+        <div class="section-divider"></div>
+
+        <div class="timeline-container">
+            <!-- Left column: Experience -->
+            <div class="timeline-column">
+                <h3 class="timeline-column-title">
+                    <i class="fas fa-briefcase" aria-hidden="true"></i> Work Experience
+                </h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">Nov 2024 — Present</span>
+                            <h4>AI / ML Intern</h4>
+                            <p class="timeline-company">@ AI Cadmey, Bahawalpur</p>
+                            <p class="card-desc">
+                                Developing and fine-tuning Deep Learning models for CV and NLP tasks.
+                                Built AI-Powered Resume Screening System. Deploying models via Streamlit.
+                            </p>
+                            <div class="skill-tags-list">
+                                <span class="skill-tag-usman">TensorFlow</span>
+                                <span class="skill-tag-usman">NLP</span>
+                                <span class="skill-tag-usman">Computer Vision</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">2023 — Present</span>
+                            <h4>Freelance AI Engineer</h4>
+                            <p class="timeline-company">Independent</p>
+                            <p class="card-desc">
+                                Building custom ML solutions, technical reports, and proposal writing.
+                                Projects include predictive analytics and intelligent automation systems.
+                            </p>
+                            <div class="skill-tags-list">
+                                <span class="skill-tag-usman">Python</span>
+                                <span class="skill-tag-usman">ML Pipelines</span>
+                                <span class="skill-tag-usman">Data Analysis</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">2022 — 2023</span>
+                            <h4>Full Stack Web Developer</h4>
+                            <p class="timeline-company">Self-taught / Freelance</p>
+                            <p class="card-desc">
+                                Studied and practiced full-stack web development. Built multiple web applications
+                                using HTML, CSS, JavaScript, and backend technologies.
+                            </p>
+                            <div class="skill-tags-list">
+                                <span class="skill-tag-usman">HTML/CSS</span>
+                                <span class="skill-tag-usman">JavaScript</span>
+                                <span class="skill-tag-usman">APIs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right column: Education -->
+            <div class="timeline-column">
+                <h3 class="timeline-column-title">
+                    <i class="fas fa-graduation-cap" aria-hidden="true"></i> Education
+                </h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">2023 — Present</span>
+                            <h4>BS Artificial Intelligence</h4>
+                            <p class="timeline-company">Islamia University of Bahawalpur</p>
+                            <p class="card-desc">
+                                Covering Machine Learning, Deep Learning, Data Science, NLP,
+                                and intelligent systems design. Active research participant.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">2020 — 2022</span>
+                            <h4>FSc Pre-Medical</h4>
+                            <p class="timeline-company">Dera Ghazi Khan, Punjab</p>
+                            <p class="card-desc">
+                                Pre-medical track with strong biology and chemistry foundation.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">2018 — 2020</span>
+                            <h4>Matric (SSC) — Science</h4>
+                            <p class="timeline-company">Dera Ghazi Khan, Punjab</p>
+                            <p class="card-desc">
+                                Completed secondary education with focus on sciences and mathematics.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         SECTION 7: CERTIFICATIONS
+         ═══════════════════════════════════════ -->
+    <section class="section" id="certifications">
+        <h2>Certifications</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">
+            Professional certifications validating my expertise in AI, ML, and related technologies.
+        </p>
+
+        <div class="cert-grid">
+            <div class="cert-card glass-card">
+                <div class="cert-icon"><i class="fas fa-brain" aria-hidden="true"></i></div>
+                <h4>AI / ML Internship</h4>
+                <p class="cert-issuer">AI Cadmey</p>
+                <span class="cert-badge">Verified</span>
+            </div>
+            <div class="cert-card glass-card">
+                <div class="cert-icon"><i class="fas fa-robot" aria-hidden="true"></i></div>
+                <h4>Google AI Essentials</h4>
+                <p class="cert-issuer">Google via Coursera</p>
+                <span class="cert-badge">Verified</span>
+            </div>
+
+            <div class="cert-card glass-card">
+                <div class="cert-icon"><i class="fas fa-wand-magic-sparkles" aria-hidden="true"></i></div>
+                <h4>Generative AI Mastermind</h4>
+                <p class="cert-issuer">Online Certification</p>
+                <span class="cert-badge">Verified</span>
+            </div>
+            <div class="cert-card glass-card">
+                <div class="cert-icon"><i class="fas fa-code" aria-hidden="true"></i></div>
+                <h4>Web Design & Development</h4>
+                <p class="cert-issuer">Professional Certificate</p>
+                <span class="cert-badge">Verified</span>
+            </div>
+            <div class="cert-card glass-card">
+                <div class="cert-icon"><i class="fas fa-handshake" aria-hidden="true"></i></div>
+                <h4>Freelancing</h4>
+                <p class="cert-issuer">Professional Certificate</p>
+                <span class="cert-badge">Verified</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         SECTION 8: CONTACT
+         ═══════════════════════════════════════ -->
+    <section class="section" id="contact">
+        <h2>Get In Touch</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">
+            Have a project, opportunity, or just want to say hi? I'm always happy to connect!
+        </p>
+
+        <div class="contact-layout">
+
+            <!-- Contact Form -->
+            <div class="contact-form-container">
+                <form id="contact-form" novalidate>
+                    <label for="senderName" class="sr-only">Your Full Name</label>
+                    <input type="text"  id="senderName"     name="name"    placeholder="Your Full Name"  required>
+                    <label for="senderEmail" class="sr-only">Your Email</label>
+                    <input type="email" id="senderEmail"    name="email"   placeholder="Your Email"       required>
+                    <label for="messageSubject" class="sr-only">Subject</label>
+                    <input type="text"  id="messageSubject" name="subject" placeholder="Subject"          required>
+                    <label for="messageBody" class="sr-only">Your Message</label>
+                    <textarea           id="messageBody"    name="message" rows="6"
+                                        placeholder="Tell me about your project or question…" required></textarea>
+                    <button type="submit" id="submit-btn">
+                        Send Message <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                    </button>
+                    <div id="form-status" class="form-status" role="alert"></div>
+                </form>
+            </div>
+
+            <!-- Info Sidebar -->
+            <div class="contact-info-sidebar">
+
+                <div class="contact-info-card" id="contact-location">
+                    <div class="contact-info-icon"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>
+                    <div>
+                        <div class="contact-info-label">Location</div>
+                        <div class="contact-info-value">Bahawalpur, Punjab, Pakistan</div>
+                    </div>
+                </div>
+
+                <div class="contact-info-card" id="contact-phone">
+                    <div class="contact-info-icon"><i class="fas fa-phone" aria-hidden="true"></i></div>
+                    <div>
+                        <div class="contact-info-label">Phone</div>
+                        <div class="contact-info-value">
+                            <a href="tel:+923007515751">+92-3007515751</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-info-card" id="contact-email">
+                    <div class="contact-info-icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+                    <div>
+                        <div class="contact-info-label">Email</div>
+                        <div class="contact-info-value">
+                            <a href="mailto:manoousman469@gmail.com">manoousman469@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-info-card" id="contact-social">
+                    <div class="contact-info-icon"><i class="fas fa-share-alt" aria-hidden="true"></i></div>
+                    <div>
+                        <div class="contact-info-label">Connect</div>
+                        <div class="contact-social-row">
+                            <a href="https://linkedin.com/in/usman-saeed786/" target="_blank" rel="noopener" class="social-pill">
+                                <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
+                            </a>
+                            <a href="https://github.com/usman-rgb" target="_blank" rel="noopener" class="social-pill">
+                                <i class="fab fa-github" aria-hidden="true"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         FOOTER
+         ═══════════════════════════════════════ -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-nav">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://linkedin.com/in/usman-saeed786/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/usman-rgb" target="_blank" rel="noopener" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:manoousman469@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.instagram.com/usmareena?igsh=aDFtaHpvb3lkenVr" target="_blank" rel="noopener" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://wa.me/923340344990" target="_blank" rel="noopener" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://x.com/AIbyUsman" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+                <a href="https://discordapp.com/users/manoousman_12117" target="_blank" rel="noopener" aria-label="Discord">
+                    <i class="fab fa-discord"></i>
+                </a>
+                <a href="https://www.facebook.com/manak.raja.794" target="_blank" rel="noopener" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+            <p class="footer-copyright">© 2026 Muhammad Usman. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Scroll back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="assets/js/projects-data.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
